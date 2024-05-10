@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@font-face {
+    font-family: Judson-Regular;
+    src: url(./fonts/Judson-Regular.ttf);
+}
+@font-face {
+    font-family: Judson-Bold;
+    src: url(./fonts/Judson-Bold.ttf);
+}
+@font-face {
+    font-family: Judson-Italic;
+    src: url(./fonts/Judson-Italic.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+.tituloVika{
+    color: white;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 40px;
+}
+.fotoVika{
+    margin-top: 20px;
+    height: 500px;
+}
+.blocoRede{
+    border: 2px solid #B2862F;
+    box-shadow: 0 0 10px #ffa601;
+    height: 70px;
+    font-size: 20px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #c21717;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blocosRedes{
+    margin-top: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.antesComprar{
+    margin-top: 60px;
+}
+.conteudo{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#meuCurso{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 40px;
+}
+#banda{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 40px;
+}
+.listaEspera{
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    transform: scale();
+    animation: pulse 2s infinite;
+    width: 500px;
+    box-shadow: 0 0 20px #10750d;
+    background-color: #0ba72d;
+}
+.entrarNaLista{
+    color: white;
+}
+.textoGuitarra{
+    font-size: 16px;
+    color: #808080;
+}
+#guitarraChave{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.guitarraChave{
+    margin-top: -30px;
+    height: 200px;
+}
+.mytho{
+    margin-top: -130px;
+    height: 400px;
+}
+.blocoRedeMytho{
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid #6e0101;
+    box-shadow: 0 0 8px #ff0101;
+    height: 70px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #1E1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blocosRedesMytho{
+    margin-top: -90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.fim{
+    width: 100%;
+    height: 50px;
+    background-color: #414141;
+    margin-top: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+.ytb{
+    margin-right: -1px;
+    height: 16px;
+}
+.insta{
+    margin-right: -5px;
+    height: 47px;
+}
+.zap{
+    margin-right: -3px;
+    height: 44px;
+}
+.spotify{
+    height: 26px;
+}
+.contato{
+    height: 35px;
+}
+.botaoComprar{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 40px;
+    color: red;
+    transform: scale();
+    animation: pulse 2s infinite;
+    width: 500px;
+    box-shadow: 0 0 20px #ffa601;
+    background-color: #ffaa00;
+}
+.textoFim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes pulse{
+    50% {
+        transform: scale(1.04);
+    }
+    
+    100% {
+        transform: scale(1);
+    }
+}
